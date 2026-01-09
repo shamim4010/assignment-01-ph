@@ -241,3 +241,34 @@ main p {
 	gap: 4px;
 }
 
+footer {
+	width: 100%;
+	background-color: #001931;
+	padding: 120px 120px 30px;
+	color: #FAFAFA;
+}
+
+footer > p:last-child {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.footer-containe {
+	width: 100%;
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social p {
+	font-size: 20px;
+	margin-bottom: 18px;
+}
+
+.social a {
+	margin-right: 16px;
+	padding: 13.5px 9.75px 7px;
+	background-color: #FAFAFA;
+	border-radius: 50%;
+}
