@@ -250,6 +250,8 @@ main p {
 	gap: 4px;
 }
 
+/* Footer Section*/
+
 footer {
 	width: 100%;
 	background-color: #001931;
@@ -320,7 +322,7 @@ footer > p:last-child {
 
 	.navbar > .check-box:checked ~ .nav-items {
 		opacity: 1;
-		position: absolute;
+		position: fixed;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
@@ -352,4 +354,25 @@ footer > p:last-child {
 		flex-direction: column;
 	}
 
+	 /* Second Brain Section */
+	 .second-brain-section {
+		flex-direction: column;
+		padding: 40px 20px;
+	 }
+	 .second-brain-info {
+		text-align: center;
+	 }
+	 .second-brain-info > ul > li {
+		font-size: 18px;
+	 }
+
+	 /* Early Access Section */
+	 .early-access-section {
+		padding: 40px 20px;
+	 }
+
+	 /* Footer Section*/
+	 footer {
+		padding: 20px 20px 30px;
+	 }
 }
